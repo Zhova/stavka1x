@@ -1,0 +1,27 @@
+mixin main_screen 
+	+b.main.wrap
+		+b.main-content.container
+			+b.title-block
+				+e.IMG.logo(src="./img/logo.png")
+				+e.text
+					+e.P.title.title_big зарабатывайте на спортивном трафике
+					+e.P.sub-title.sub-title_big вместе с 1xставка
+			+b.main-button
+				+e.A.btn.btn_default Регистрация
+			+b.main-info
+				+b.main-info-logos
+					+e.item
+						+e.IMG.img(src="./img/club1.png")
+					+e.item
+						+e.IMG.img(src="./img/club2.png")
+					+e.item
+						+e.IMG.img(src="./img/club3.png")
+				+b.main-info-numerals
+					+b.numerals-common.partners
+						+e.P.title с нами партнеров
+						+e.P.desc 4 745
+					+b.numerals-common.players
+						+e.P.title с нами игроков
+						+e.P.desc 1 016 485
+
+			

@@ -1,0 +1,33 @@
+include advantages-item.pug
+include affiliates-item.pug
+
+mixin second_screen 
+	+b.second.wrap
+		+b.second-content.container
+			+b.advantages-wrapper
+				+b.block-title_default
+					+e.P.title Почему с 1хСтавка выгодно работать
+					+e.del
+
+				+b.advantages
+					+advantages-item
+					+advantages-item
+					+advantages-item
+					+advantages-item
+					+advantages-item
+
+			+b.affiliates-wrapper
+				+b.block-title_default
+					+e.P.title Почему аффилиаты нас любят
+					+e.del
+
+				+b.affiliates
+					+affiliates-item
+					+affiliates-item
+					+affiliates-item
+					+affiliates-item
+					+affiliates-item
+					+affiliates-item
+					+affiliates-item
+					+affiliates-item
+				

@@ -1,0 +1,14 @@
+mixin contacts_screen
+    +b.contacts.wrap
+        +b.contacts-content.container
+            +b.block-title_default
+                +e.P.title-news.news-title Контакты
+                +e.del
+            +b.FORM.form
+                +b.name-mail
+                    +e.INPUT.name(placeholder="Имя")
+                    +e.INPUT.mail(placeholder="E-mail")
+                +e.TEXTAREA.message(placeholder="Сообщение")
+                +b.contacts-footer
+                    +b.captcha
+                    +e.INPUT(type= 'submit')

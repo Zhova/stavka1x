@@ -1,0 +1,261 @@
+
+// =============== large
+@media screen and (max-width: 1400px)
+    .container
+        width: 90%
+
+
+
+// =============== tablet 
+@media screen and (max-width: 1199px)
+
+    .slick
+        &-arrow
+            top: 35%
+
+        &-dots
+            display: flex
+            justify-content: center
+            margin-top: 20px
+            li
+                margin-right: 20px
+                button
+                    color: transparent
+                    background: #aac1e2
+                    border: 0
+                    border-radius: 100%
+                    width: 20px
+                    height: 20px
+        &-active
+            button
+                background: #387adf !important
+        &-next
+            right: -40px
+        &-prev
+            left: -40px
+
+
+    .title_big
+        font-size: 30px
+
+    .sub-title_big
+        font-size: 65px
+    .header 
+        .login-lang
+            position: absolute
+            right: 0
+            z-index: 1
+        .nav
+            &-list
+                flex-direction: column
+                justify-content: space-between
+                position: absolute
+                background: #0A192E
+                width: 100%
+                left: 0
+                top: 0
+                height: 50vh
+                padding: 50px
+                z-index: 2
+            &-menu
+                display: none
+                height: 1000px
+
+        .burger
+            position: absolute
+            display: block
+            width: 40px
+            z-index: 10
+            &__line
+                width: 100%
+                height: 2px
+                border-radius: 6px
+                background: #ffffff
+                margin: 10px
+                transform-origin: left
+                transition: .3s
+
+        .first-transform
+            transition: .3s
+            width: 34px
+            transform: rotate(45deg)
+        .second-transform
+            transition: .3s
+            opacity: 0
+        .third-transform
+            transition: .3s
+            width: 34px
+            transform: rotate(-45deg)
+
+
+
+    .main
+        .title-block
+            flex-direction: column
+            align-items: center
+
+            &__logo
+                margin-right: 0
+                margin-bottom: 20px
+            &__text
+                text-align: center
+
+        &-button
+            margin-top: 35px
+
+    .second 
+        max-height: 120vh
+        .advantages
+            justify-content: space-around
+            flex-wrap: wrap
+
+            &-item
+                margin-bottom: 20px
+
+        .affiliates
+            &-wrapper
+                bottom: 40px
+
+    .laureates-content  
+        padding: 100px 0   
+        .progress
+            &-block
+                flex-direction: column
+                align-items: center
+                .cup-block
+                    margin-right: 0
+            &-info
+                display: flex
+                flex-direction: column
+                align-items: center
+                text-align: center
+                padding-top: 0
+
+    .news 
+        max-height: 100vh
+        height: auto
+        .faq
+            &-block
+                flex-direction: column-reverse
+            &-list
+                max-width: 100%
+                p
+                    margin-right: 0
+                    display: flex
+                    justify-content: center
+                    width: 100%
+                    &:first-child
+                        border-top: 1px solid #cfd8dc
+            &-desc
+                max-width: 100%
+                display: flex
+                justify-content: center
+
+
+
+// =============== mobile
+@media screen and (max-width: 767px)
+
+    .title_big
+        font-size: 13px
+
+    .sub-title_big
+        font-size: 28px
+
+    .text_regular
+        font-size: 11px
+
+    .block-title__title
+        font-size: 25px
+        text-align: center
+
+    .news-title
+        font-size: 25px
+
+    .btn_default
+        font-size: 14px
+        border-radius: 5px
+        width: 150px
+        height: 40px
+
+    .main-button
+        margin-bottom: 95px
+
+    .header
+        .login-lang
+            right: 20px
+        .lang
+            display: none
+        .entry
+            display: none
+        .nav
+            &-list
+                height: 70vh
+
+
+    .main
+        &-content
+            padding-top: 150px
+
+        &-info
+            &-logos 
+                img
+                    max-width: 70px
+            &-numerals
+                flex-direction: column
+
+        .numerals-common
+            margin-bottom: 10px
+            &__title
+                font-size: 17px
+                margin-right: 15px
+                max-width: 70%
+            &__desc
+                font-size: 30px
+
+
+    .second
+        max-height: 260vh
+        .advantages
+            &-item
+                width: 45%
+                height: 240px
+                min-width: auto
+
+                &__img
+                    margin-bottom: 10px
+        .affiliates
+            padding: 10px
+            padding-top: 50px
+            &-item
+                width: 50%
+
+        
+
+
+    .laureates
+        padding-top: 250px
+        &-content
+            padding-top: 0
+
+        .progress-info
+            &__title
+                font-size: 25px
+            &__list
+                li
+                    font-size: 15px
+    .news
+        max-height: 280vh
+        &-card-text
+            &__title
+                font-size: 16px
+            &__desc
+                font-size: 12px
+            &__date
+                font-size: 13px
+
+        .faq-block
+            padding: 15px
+
+    .contacts
+        padding-top: 350px
